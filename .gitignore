@@ -1,0 +1,22 @@
+# Generated data: make it with tools/make_data.py, never commit it
+data/
+
+# Virtual environment
+.venv/
+
+# Python caches and build files
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Temporary and output files
+*.tmp
+out*.jsonl
+
+# Secrets
+.env
